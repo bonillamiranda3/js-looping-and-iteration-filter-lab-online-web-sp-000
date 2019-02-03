@@ -6,8 +6,14 @@ function findMatching(driversArray, string) {
   });
 }
 
-fuction fuzzyMatch(driversArray, string) {
+function fuzzyMatch(driversArray, string) {
   return driversArray.filter (function (driverElement){
     return driverElement.slice(0, string.length) === string
 });
+}
+
+function matchName(driversArray, string) {
+  return driversArray.filter (function (driverElement) {
+      return driverElement.name === string
+  });
 }
