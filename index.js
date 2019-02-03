@@ -12,8 +12,3 @@ fuction fuzzyMatch(driversArray, string) {
 });
 }
 
-function matchName(driversArray, string) {
-  return driversArray.filter (function (driverElement) {
-      return driverElement.name === string
-  });
-}
