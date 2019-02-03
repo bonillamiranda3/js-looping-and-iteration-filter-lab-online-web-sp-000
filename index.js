@@ -11,4 +11,3 @@ fuction fuzzyMatch(driversArray, string) {
     return driverElement.slice(0, string.length) === string
 });
 }
-
